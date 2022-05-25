@@ -1,27 +1,28 @@
 
-h1{
-    display: inline-block;
-}
 *img{
     margin: 0 auto;
 }
-// .wrapper{
-//     margin-top: 10px; 
-//     margin-bottom: 10px;
-//     >div{
-//         float: left;
-//     }
-// }
-*{
-    border: 1px solid #f00;
+.container{
+    margin: 0 auto;
 }
+// *{
+//     border: 1px solid #f00;
+// }
 *div{
     
     float: left;
     margin-top: 10px;
     margin-bottom: 10px;
     word-wrap: break-word;
+}    
+.title{
+    font-size: medium;
+    font-weight:bold;
+    float: left;
+    display: block;
 }
+
+//header
 .face{
     max-width: 258px;
     max-height: 301px;
@@ -42,10 +43,7 @@ ul{
     }
 }
 
-.title{
-    font-size: medium;
-    font-weight:bold;
-}
+
 // film
 .gospoja_gorn{
     max-width:460px;
